@@ -1,12 +1,89 @@
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;6006display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+background-color: #06010183;
+
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #565454;
+.container {
+position: relative;
+min-height: 100vh;
+max-width: 120apx;
+width: 100%;
+margin: 0 auto;
+padding: 40px 20px;
+
+}
+
+.container .search-box {
+position: relative;
+height: 50px;
+max-width: 450px;
+margin: 0 auto;
+margin-bottom: 40px;
+}
+
+.search-box input {
+position: absolute; 
+height: 100%;
+width: 100%;
+outline: none;
+border: none;
+padding: 0 15px 0 45px;
+border-radius: 10px;
+background-color: #2568aa;
+color: #fff;
+}
+
+.container .images .image-box {
+    width: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.images {
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.images .image-box {
+margin: 12px;
+}
+
+.images .image-box img {
+height: 80%;
+width: 80%;
+border-radius: 6px;
+border: 6px solid #fff;
+transition: transform 0.2s linear;
+}
+
+.image-box:hover img {
+transform: scale(1.05);
+}
+
+.image-box h4 {
+
+color:#182ed5;
+font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+   
+    background-color: inherit;
+    font-size: large;
+    color: azure;
 }
