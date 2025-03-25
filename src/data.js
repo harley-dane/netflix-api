@@ -89,7 +89,7 @@ const data = {
         {
             id: 15,
             dataName: 'In-time',
-            src: './src/images/inTime.jpg',
+            src: './src/images/in-time.jpg',
             title: 'In Time',
         },
         {
