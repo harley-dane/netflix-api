@@ -21,9 +21,9 @@ create your own!
   - _Given [context] when [a specific action is performed] then [a set of
     consequences should occur]_
 
-## Could-Haves
+## Could-haves
 
-> would be really cool ... if there's time
+> would be really cool ... if there's timer and ..
 
 - [ ] As a ... I want to ... so that ...
   - _Given [context] when [a specific action is performed] then [a set of
